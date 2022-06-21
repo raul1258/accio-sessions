@@ -1,0 +1,88 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <center>
+        <div class="container">
+        <div class="logo">
+            <img src="Images\logo1.gif" alt="logo" width="200" height="250"></div>
+           <div class="building">
+            <img src="Images\building.jpg" alt="building" width="900" height="250">
+            </div>
+
+        <div class="mid_section">
+            <table>
+                <tbody><tr>
+                    <td class="design"><img src="Images\img1.jpg" alt="img1" width="170" height="200"></td>
+                    <td height="200" width="730" class="table1">
+                        <div class="table2">
+                        <span> 
+                        Unit #5 -Floor Plans</span>
+                        <center><ol type="A"><li>Kitchen</li></center>
+                        <li>Bathroom</li>
+                        <li>Using slabs</li>
+                        <li>Georgian Home</li>
+                        <li>Sketching Elements #5</li>
+                    </ol>
+                </div>
+                    </td>
+                    <td class="design1"><img src="Images\img2.jpg" alt="img2" width="170" height="200"></td>
+                </tr>
+                <tr>
+                     <td><img src="Images\img3.jpg" alt="img3" width="170" height="200">          HousePalns.com The largest source for quality affordable ready made house plans.A great place to surf for space planning ideas <a href="">learn more</a> </td>
+                    <td height="200" width="730"><span class="content1"><b>Objective</b><br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. At quas numquam totam quis repellendus laboriosam fuga veritatis accusantium reprehenderit sunt iusto soluta rem deleniti, officia ipsa tempora dignissimos, voluptatum officiis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. At deleniti explicabo quas, maxime libero voluptates placeat doloribus cum reprehenderit rerum velit sed aspernatur numquam obcaecati nobis sint</span></td>
+                    <td><img src="Images\img4.jpg" alt="img4" widht="170" height="200">          HousePalns.com The largest source for quality affordable ready made house plans.A great place to surf for space planning ideas <a href="">learn more</a></td>
+
+                </tr>
+            </tbody></table>
+            
+            
+        </div>
+
+        
+    </div></center>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
