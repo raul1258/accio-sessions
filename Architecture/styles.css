@@ -25,7 +25,15 @@ body{
 tr {
     text-align: center;
 }
-li{
+/* li{
     text-align: center;
+} */
+.table2{
+    width: 300px;
+    margin:0px auto;
+    
 }
-
+.table1{
+    text-align: left;
+    
+}
