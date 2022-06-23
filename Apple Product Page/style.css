@@ -1,0 +1,127 @@
+body{
+    background-color: #90ee90 ;
+    font-size: small;
+    /* align-items: center; */
+}
+.product_container{
+    /* margin:0px auto;
+    width:fit-content; */
+    padding-left: 13%;
+    padding-top: 1%;
+    display: flex;
+    margin-top: 50px;
+}
+.product_details{
+    width:615px;
+    background-color: white;
+    height: 600px;
+    display: flex;
+    border-radius: 5px;
+    
+}
+.product_image{
+    background-color:white;
+    width: 280px;
+    height:520px;
+    position: relative;
+    left: 17%;
+    bottom:20%;
+    margin-top: 3%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 25px -5px grey;
+}
+.main_photo{
+    border-radius: 5px 5px 0 0;
+    height:430px;
+    background-color: greenyellow;
+    background: radial-gradient(#F5F5F5 30%,greenyellow 70%);
+}
+.main_product_image{
+    
+    position: absolute;
+    left: -35%;
+    top:7%;
+    max-width: 110%;
+    filter: saturate(120%) contrast(120%) hue-rotate(10deg) drop-shadow(1px 20px 10px rgba(0,0,0,0.3));
+
+ }
+.image2_container{
+    align-items: center;
+    padding-left: 15%;
+    padding-top: 10%;
+}
+.color_img1{
+    border:1px solid yellowgreen;
+    border-radius: 5px;
+    transform: scale(0.9);
+    cursor:pointer;
+    height: 45px;
+    width:45px; 
+}
+.color_img1:hover{
+    border: 2px solid #90ee90;
+}
+.detail_first{
+    flex:0.55;
+    /* background-color: aqua; */
+}
+.detail_second{
+    padding: 7%;
+    flex:0.79;
+    /* background-color: blue; */
+    padding-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.code_text{
+    font-size:12px ;
+    opacity:.3;
+}
+.cost_text{
+    color: red;
+    font-size: 20px;
+}
+.price_text{
+    font-size: 75px;
+}
+.color_img{
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+}
+.color_img:hover{
+    border:1px solid black;
+    border-radius: 5px;
+    /* transform: scale(0.7); */
+    cursor:pointer;
+    
+    
+}
+li{
+    font-size:13px;
+}
+.add_to_cart_btn{
+    background-color: indianred;
+    color: white;
+    padding:20px 40px;
+    border:none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 25px -5px grey;
+    margin-top: 15px;
+    font-weight: 800;
+    font-size: 19px;
+}
+.add_to_cart_btn:hover{
+    background-color:yellowgreen;
+    cursor: pointer;
+}
+
+h1, h2{
+    color:darkslategray;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding:5%;
+    color:rgb(255, 255, 255);    
+}
+
