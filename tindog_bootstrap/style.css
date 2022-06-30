@@ -1,16 +1,111 @@
-.coloured_section{
-background-color: #ff4c68;
-padding:5% 12%;
+body {
+    text-align: center;
 }
-.navbar-brand{
+
+.coloured_section {
+    background-color: #ff4c68;
+    padding: 5% 13%;
+    /* max-height: 60vh; */
+}
+
+.navbar-brand {
     font-weight: 800;
-    font-size: 3rem  !important;
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
 }
-.navbar-collapse{
-    flex-grow: 0 !important;
+
+.navbar-collapse {
+    flex-grow: 0;
 }
-.heading_text{
+
+.heading_text {
     font-size: 2.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: start;
+}
+
+.image_title {
+    width: 20%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 25%;
+}
+
+.features_sec {
+    position: relative;
+    padding: 6%;
+    background-color: white;
+}
+
+.heading_btn {
+    text-align: start;
+}
+i{
+    color:#ef8172;
+}
+i:hover{
+    color:#ff4c68;
+}
+.fourth_sec{
+    height: 250px;
+    background-color:#FF4C68;
+    color:white;
+    
+}
+.corousel{
+    background-color:#ef8172; 
+}
+.carousel-item{
+    padding:7% 10% 8% 10%;
+    /* margin: 10% 10% 10% 10%; */
+}
+.slide-text{
+    font-size:2.5rem;
+    font-family: "Montserrat-Bold";
+    line-height: 1.5;
+}
+.slide_img{
+    height:8rem;
+    border-radius:10rem;
+    margin:0px auto;
+}
+.company_img{
+    width:10%;
+}
+.pricing-section {
+    padding: 5% 10%;
+}
+
+.sign-up-btn {
+    width: 100%;
+}
+
+.card-title {
+    font-size: 2.5rem;
+    font-family: "Montserrat-Bold";
+}
+
+.download_section {
+    background-color: #ff4c68;
+    padding: 7% 10%;
+}
+@media (max-width: 992px) {
+    .heading_text {
+        text-align: center;
+    }
+
+    .heading_btn {
+        text-align: center;
+    }
+
+    .image_title {
+        position: static;
+        transform: rotate(0deg);
+        margin-top: 3rem;
+        margin-left: 8rem;
+        width: 80%;
+        
+    }
+    
 }
