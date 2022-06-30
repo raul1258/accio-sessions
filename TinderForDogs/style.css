@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+}
+.header_section{
+    width:100%;
+    height:60vh;
+    background-color: #ff4c68;
+    
+}
+.header_inner{
+    padding: 3% 10% ;
+
+}
+nav{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+}
+.nav_titles{
+    width:250px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_title{
+    color:white;
+    font-size: 1rem;
+}
+.header_main{
+    display: flex;
+    height:20rem;
+    
+}
+.header_left{
+    flex:.5;
+    /* background-color: aliceblue; */
+    display:flex;
+    flex-direction: column;
+    margin:2.5rem;
+}
+.header_right{
+flex:.5;
+/* background-color: aqua; */
+}
+.landing_text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 3rem;
+ /* margin-top: .4rem; */
+ color:white;
+ font-weight: 500;
+ line-height: 1.5;
+ margin-bottom:1rem ;
+}
+.tindog{
+font-size: 3.5rem;
+color:white;
+}
+
+.apple{
+    background-color: black;
+    border-radius:5px;
+    font-size: 1.2rem;
+    color:white;
+    padding:10px 15px;
+}
+.android_btn{
+    background-color: transparent;
+    border-radius:5px;
+    font-size: 1.2rem;
+    padding:10px 15px;
+    border:1px solid white;
+    color:white;
+}
+/* from here */
+.second_section{
+    height:30vh;
+    width:100%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+  }
+p{
+    position: absolute;
+    margin-top: 3%;
+    font-size: medium;
+}
+.part1{
+    display:flex;
+    /* background-color: blue; */
+    width:33.5%;
+    justify-content: center;
+    padding-top: 5%;
+    font-size: 1.5rem;
+    
+}
+.part2{
+    padding-top: 5%;
+    width:33.5%;
+    display:flex;
+    /* background-color: rgb(212, 212, 238); */
+    justify-content: center;
+    font-size: 1.5rem;
+
+}
+.part3{
+    padding-top: 5%;
+    display:flex;
+    width:33%;
+    /* background-color: aqua; */
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.second_section i{
+    display:inline;
+    position: absolute;
+    /* flex-direction: row; */
+    color:#ff4c68;
+    justify-content: space-between;
+    margin-top: -3.5%;
+}
+.third_section{
+    height:80vh;
+    width:100%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    background-color: #EF8172;
+    display:flex;
+  }
+.corousel{
+    width:100%;
+    height:60%;
+    text-align: center;
+    color:white;
+    margin-top: 2%;
+    
+}
+.corousel1{
+    font-size: 2.5rem;
+}
+.person{
+    height:80px;
+    border-radius: 100%;
+    width:6%;
+    margin-top: 4%;
+    margin-left:-15%;
+}
+.person_name{
+margin-top: -3.5%;
+}
+.logo{
+    width:100%;
+    height:20%;
+    background-color:#EF8172;
+    position: absolute;
+    margin-top: 25%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo > h1{
+    
+    margin:5%;
+   font-size: 1.9rem;
+    
+}
+
+.fourth_section{
+    height:80vh;
+    width:100%;
+    margin-top: 3%;
+  justify-content: space-between;
+  margin-top: 3%;  
+  display: flex;
+  justify-content: center;
+  }
+.fourth_section h1{
+    color:black;
+    font-size: 2.1rem;
+}
+.fourth_section h3{
+    font-size: 1rem;
+    margin: 1%;
+    padding: 3%;
+    color: grey;
+}
+.three_boxes{
+    background-color: rgb(255, 255, 255);
+    height: 55%;
+    width:75%;
+    display:flex;
+    position:absolute;
+    margin: 7%;
+    justify-content: center;
+    
+}
+.first_box{
+    width:25%;
+    text-align: center;
+    background-color:white;
+    box-sizing: content-box;
+    margin: 2%;
+    flex-direction: column;
+    
+}
+.items h1{
+    color:rgb(26, 148, 255) ;
+    
+}
+.items p{
+    display: flex;
+    margin-left: 5%;
+    
+}
+.button5{
+    margin-top: 50%;
+}
+
+  .fifth_section{
+    height:40vh;
+    width:100%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    background-color:#ff4c68;
+    display:flex;
+   justify-content: center;
+  }
+  .fifth_heading{
+    margin:3%;
+    font-size: 1.5rem;
+    color: white;
+  }
+  .sixth_section{
+    height:20vh;
+    width:100%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+  }
+  .fifth_button{
+    margin-left: 22%;
+    margin-top: 6%;
+    background-color: black;
+    border-radius:5px;
+    font-size: 1.2rem;
+    color:white;
+    padding:10px 15px;
+  }
+  .footer
+    {
+        width:250px;
+        display:flex;
+        margin-left: 42%;
+        justify-content: space-between;
+        align-items: center;
+        color:black;
+        margin-top: -5%;
+    }
+    .footer p{
+        margin-left: 3%;
+        margin-top: 5%;
+        font-size: 1.2rem;
+    }
+ .right_img{
+    width:300px;
+    height:300px;
+    opacity: .6;
+ }
+

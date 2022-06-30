@@ -36,6 +36,12 @@ body{
     background-color: greenyellow;
     background: radial-gradient(#F5F5F5 30%,greenyellow 70%);
 }
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding:5%;
+    color:rgb(255, 255, 255);    
+}
 .main_product_image{
     
     position: absolute;
