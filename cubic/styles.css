@@ -1,0 +1,155 @@
+/* .grid-container {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.grid-item { */
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    /* background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+*{
+  margin:0px;
+  padding:0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;  
+  font-style: italic;
+  color:violet;
+}
+body{
+    height:100vh;
+    background: radial-gradient(#fefefe 20%,rgb(128, 227, 227) 70%);
+}
+.container{
+    height:60vh;
+    width: 30vh;
+    position:absolute;
+    top:50vh;
+    left:90vh;
+    transform:translate(-50%,-50%);
+    perspective: 1000px;
+}
+#cube{
+    height:250px;
+    width:250px;
+    position:absolute;
+    top:100px;
+    left:100px;
+     /* transform: rotate(-90deg);  */
+     /* transform-style: preserve-3d; */
+    /* transform: rotateY(30deg);  */
+    transform-style: preserve-3d;
+    animation :animate 7s infinite linear;
+    
+}
+@keyframes animate{
+    from{
+        transform: rotateY(359deg);
+    }
+    to{
+        transform: rotateY(0deg);
+    }
+}
+.card{
+    height:250px;
+    width:250px;
+    text-align:center;
+    padding:80px 5px;
+    /* color:white; */
+    background: black;
+    border: 2px solid white;
+    font-size: 32px;
+    box-sizing: border-box;
+    position:absolute;
+    transition: all 1s;
+}
+/* hit me */
+#front{
+    transform: translateZ(125px);
+}
+#back{
+    transform: translateZ(-125px);
+}
+#left{
+    right:125px;
+    transform:rotateY(-90deg);
+}
+#right{
+    left:125px;
+    transform:rotateY(90deg);
+}
+#top{
+    bottom:125px;
+    transform:rotateX(90deg);
+}
+#bottom{
+    top:125px;
+    transform:rotateX(-90deg);
+} 
+
+input{
+    color: black;
+    height:50px;
+    width:100px;
+    background:aqua;
+    font-size: 22px;
+    cursor: pointer;
+    position: absolute;
+    top:-100px;
+    left:180px;
+}
+/* for hit me button */
+input:focus~ #cube #front{
+    transform: translateZ(180px) rotateY(360deg);
+}
+input:focus~ #cube #back{
+    transform: translateZ(-180px) rotateY(360deg);
+}
+input:focus~ #cube #left{
+    right: 180px;
+}
+input:focus~ #cube #right{
+    left:180px;
+}
+input:focus~ #cube #top{
+    bottom:180px;
+}
+input:focus~ #cube #bottom{
+    top:180px;
+}
+#front img{
+    border-radius: 10px;
+    height:80px;
+    width:80px;
+}
+#back p{
+    margin-top: -15%;
+    transform: rotateY(-180deg);
+    
+}
+.logo{
+    color : white;
+}
+.coder_img{
+    margin-top: 15%;
+    height:100px;
+    width:120px;
+}
+.btn{
+    display: flex;
+    align-items: flex-start;
+    font-weight: 100;
+    background-color: rgb(66, 70, 62);
+}
+ p{
+    margin-top: -15%;
+}
