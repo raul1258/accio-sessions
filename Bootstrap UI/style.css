@@ -1,0 +1,69 @@
+.navbar-brand{
+    font-family:'Pacifico', cursive;
+    color: black;
+}
+.textspan{
+    color:rgb(12, 226, 226);
+}
+.header-img{
+    background-image: url(./images/image2.jpg);
+    height:20rem;
+    padding-top: 7rem;
+    background-size: cover;
+    font-family: 'Righteous', cursive;
+}
+.card-container {
+    /* padding: 5% 20%; */
+    width: 60vw;
+    margin: 0px auto;
+    padding: 5% 0%;
+}
+.btn1{
+    width: 9rem;
+}
+.content-img{
+    background-image: url(./images/image3.jpg);
+    background-size: cover;
+    height:35rem;
+    padding-top: 10rem;
+    font-family: 'Righteous', cursive;
+    font-size: small;
+   
+}
+.btn-2{
+    width:15rem;
+}
+.card-border{
+    border-radius: 5px;
+}
+.laptop-img{
+    width:13rem;
+    height:13rem;
+}
+.copyright{
+    text-align: center;
+    border-top: .5px solid rgb(229, 208, 208);
+    
+}
+.card{
+    background-color: transparent;  
+}
+.last-font{
+    font-family: 'Righteous', cursive;
+}
+
+
+@media (max-width: 1025px) {
+    .card-container{
+        width: auto;
+        font-size: .6rem;
+        padding-left: 1rem;
+    }
+    .card1{
+        width: 10%;
+    }
+    
+    
+    
+}
+
