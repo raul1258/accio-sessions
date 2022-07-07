@@ -10,6 +10,7 @@
     height:20rem;
     padding-top: 7rem;
     background-size: cover;
+    background-attachment:fixed;
     font-family: 'Righteous', cursive;
 }
 .card-container {
@@ -23,6 +24,7 @@
 }
 .content-img{
     background-image: url(./images/image3.jpg);
+    background-attachment:fixed;
     background-size: cover;
     height:35rem;
     padding-top: 10rem;
