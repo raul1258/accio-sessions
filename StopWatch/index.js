@@ -16,6 +16,7 @@ const updateTime = (elapsedTime) =>{
     let hh = elapsedTime / 3600000;
     let hrs = Math.floor(hh);
 
+
     let mm = (hh-hrs) * 60;
     let mins = Math.floor(mm);
 
@@ -50,6 +51,8 @@ const resetStopwatch = () =>{
     clearInterval(StopWatchInterval);
     stopwatch.innerText = "00:00:00:000";
     elapsedTime = 0;
+    playbtn.style.display = "block";
+    pausebtn.style.display = "none";
 };
 
 playbtn.addEventListener("click", startStopwatch);
