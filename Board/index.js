@@ -16,7 +16,7 @@ for(let i=0;i<SQUARES;i++){
         removeColor(square);
     });
 
-    container.appendChild(square);
+    container.appendChild(square); //imp
 }
 const randomColor = () => {
     return colors[Math.floor(Math.random() * 5)];
