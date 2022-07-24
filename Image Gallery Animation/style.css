@@ -1,0 +1,52 @@
+body{
+    overflow-x: hidden;
+}
+.container{
+    display: flex;
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+}
+.panel{
+    height: 90vh;
+    background-repeat: no-repeat;
+    border-radius: 3.5rem 3.5rem 3.5rem 3.5rem;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    flex: .3;
+    margin: .5rem;
+    display: flex;
+    flex-direction: column-reverse;
+    transition: all 700ms ease-in-out;
+    padding-left: 2rem;
+    
+}
+#panel-1{
+background-image: url(./images/photo-1.avif);
+}
+#panel-2{
+    background-image: url(./images/photo-2.avif);
+}
+#panel-3{
+        background-image: url(./images/photo-3.avif);
+ }
+#panel-4{
+      background-image: url(./images/photo-4.avif);
+}
+#panel-5{
+        background-image: url(./images/photo-5.avif);
+}
+.panel.active{
+    flex: 2;
+}
+
+@media ( max-width : 480px){
+    .container{
+        width: 100vw;
+    }
+    #panel-4, #panel-5{
+        display: none;
+    }
+}
