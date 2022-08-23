@@ -4,10 +4,10 @@ The hosted Links of the projects in this repo :
 
 ( From basic to advance )
 
-Animal Gallery                
-Architecture Webpage          https://jaiswalsarchitecture.netlify.app/
-AppleProductPage              https://appleproductraul.netlify.app/
-CubicAnimationPortfolio       https://raulcubicalportfolio.netlify.app/
-DogsTinder                    https://dogsmatch.netlify.app/
-Bootstrap UI                  https://raulbootstrapui.netlify.app/
-SearchEngine                  https://searchyahoo.netlify.app/
+1.Animal Gallery                
+2.Architecture Webpage          https://jaiswalsarchitecture.netlify.app/
+3.AppleProductPage              https://appleproductraul.netlify.app/
+4.CubicAnimationPortfolio       https://raulcubicalportfolio.netlify.app/
+5.DogsTinder                    https://dogsmatch.netlify.app/
+5.Bootstrap UI                  https://raulbootstrapui.netlify.app/
+6.SearchEngine                  https://searchyahoo.netlify.app/
